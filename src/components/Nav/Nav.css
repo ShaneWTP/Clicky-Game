@@ -2,19 +2,18 @@ nav {
     width: 100%;
     font-size: 30px;
     color: #fff;
-    margin-bottom: 50px;
     background-color: rgb(56, 56, 56);
     height: auto;
     font-family: 'Titillium Web', sans-serif;
   }
   
   a {
-    color: #fe2020;
+    color: #a39f24;
   }
   
   a:hover {
-    color: #20fe2b;
-    text-decoration: none;
+    color: #2049fe;
+    /*text-decoration: none;*/
   }
   
   nav li {

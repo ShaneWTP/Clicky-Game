@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CharCard from "./components/CharCard";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
 import Title from "./components/Title";
 import Container from "./Container";
 import Row from "./Row";
@@ -75,15 +76,19 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Star Wars: The Empire Clicks Back"
+          title="The Empire Clicks Back"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           results={this.state.results}
         />
 
+        <Header />
+
         <Title>
-          Click on a character. You earn 1 point for every character you click. 
+          Click on a character. You earn 1 point for every character you click.
           If you click on the same character twice, the Dark Side will destory you.
+          <br/><br/>
+          May The Force be with you.
         </Title>
 
         <Container>
